@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEF9BF;
+}
+
+.título {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    color: #75B79E;
+    font-size: 56px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.jogo-cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 146px;
+    margin: 50px 30px 30px 30px;
+    position: relative;
+}
+
+.carta img {
+    width: 100px;
+    height: 100px;
+}
+
+.lado {
+    width: 100%;
+    height: 100%;
+    background-color: #A7E9AF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, .3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: all .5s;
+    transform-style: preserve-3d;
+}
+
+.lado-frente {
+    transform: rotateY(180deg);
+}
+
+.lado-verso{
+    transform: rotateY(0deg);
+}
+
+.clicado .lado-verso {
+    transform: rotateY(180deg);
+}
+
+.clicado .lado-frente{
+    transform: rotateY(0deg);
+}
+
+@media (max-width: 614px) {
+    .título {
+        font-size: 36px;
+    }
+
+    .jogo-cartas {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
