@@ -3,6 +3,7 @@
 Parrot Game é um jogo da memória. O objetivo é encontrar todos os pares de cartas no menor número de jogadas possível.
 
 ## 🎥 Demonstração
+
 ![Uploading parrot-game.gif…]()
 
 ## 🕹️ Como jogar
