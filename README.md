@@ -4,7 +4,8 @@ Parrot Game é um jogo da memória. O objetivo é encontrar todos os pares de ca
 
 ## 🎥 Demonstração
 
-![Uploading parrot-game.gif…]()
+![parrot-game](https://github.com/user-attachments/assets/ff40e25b-c94c-4195-9ba7-4c128c2beb08)
+
 
 ## 🕹️ Como jogar
 
